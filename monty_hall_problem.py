@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import math
 
-
 lst1=[]
 x1=[]
 
@@ -23,8 +22,6 @@ for i in range(1,n+1):
     x1.append(LCG1)
     
 #print (x1)
-
-
 lst2=[]
 x2=[]
 
@@ -64,11 +61,6 @@ for i in range(1,n+1):
     prev_lcg3=LCG3
     x3.append(LCG3)
     
-
-
-
-
-
 change =1  # switching=1 , not switching = 0
 
 change_loss=0
